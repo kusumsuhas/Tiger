@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24865" started-at="2018-09-28T06:06:10Z" finished-at="2018-09-28T06:06:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24865" started-at="2018-09-28T06:06:10Z" finished-at="2018-09-28T06:06:35Z">
+      <class name="com.practice.testcases.LoginPageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="beforeSuite" is-config="true" duration-ms="284" started-at="2018-09-28T06:06:10Z" finished-at="2018-09-28T06:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="init" is-config="true" duration-ms="12977" started-at="2018-09-28T06:06:10Z" finished-at="2018-09-28T06:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="initExtent" is-config="true" duration-ms="6" started-at="2018-09-28T06:06:23Z" finished-at="2018-09-28T06:06:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.LoginPageTest.LoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="LoginTest" duration-ms="8683" started-at="2018-09-28T06:06:23Z" finished-at="2018-09-28T06:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="getResult" is-config="true" duration-ms="571" started-at="2018-09-28T06:06:32Z" finished-at="2018-09-28T06:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginPageTest.LoginTest()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="initExtent" is-config="true" duration-ms="3" started-at="2018-09-28T06:06:32Z" finished-at="2018-09-28T06:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.LoginPageTest.verifyHomePageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="verifyHomePageTitle" duration-ms="12" started-at="2018-09-28T06:06:32Z" finished-at="2018-09-28T06:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="getResult" is-config="true" duration-ms="116" started-at="2018-09-28T06:06:32Z" finished-at="2018-09-28T06:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=LoginPageTest.verifyHomePageTitle()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="teardown" is-config="true" duration-ms="2477" started-at="2018-09-28T06:06:32Z" finished-at="2018-09-28T06:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.practice.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

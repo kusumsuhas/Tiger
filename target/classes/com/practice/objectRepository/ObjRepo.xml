@@ -1,0 +1,11 @@
+<ObjRep>
+<!-- <eleBtnLeads>//a[@href='index.php?module=Leads&action=index']</eleBtnLeads>
+<eleBtnCalendar>//a[@href="index.php?module=Calendar&action=index"]</eleBtnCalendar>
+<eleBtnOrg>//a[@href="index.php?module=Accounts&action=index"]</eleBtnOrg>
+ -->
+<input>//*[@id='accountEntryForm:AEaccountId_input']</input>
+<CENIorEAN>//*[@id='accountEntryForm:AEcontractingEntityLevelData']</CENIorEAN>
+<LookupAdd>accountEntryForm:AELookupAddBtn</LookupAdd>
+<Continue>accountEntryForm:AEcntBtn</Continue>
+
+</ObjRep>
