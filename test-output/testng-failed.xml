@@ -5,7 +5,7 @@
     <classes>
       <class name="com.practice.testcases.LoginPageTestDataDriven">
         <methods>
-          <include name="Test2"/>
+          <include name="verifyHomePageTitle"/>
           <include name="beforeSuite"/>
           <include name="initExtent"/>
           <include name="teardown"/>

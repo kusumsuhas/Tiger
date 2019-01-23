@@ -4,8 +4,8 @@
   <test name="Test">
     <classes>
       <class name="com.practice.testcases.LoginPageTest"/>
-<!--      <class name="com.practice.testcases.HomePageTest"/>
-       <class name="com.practice.testcases.LeadsPageTest"/>
+      <class name="com.practice.testcases.HomePageTest"/>
+<!--       <class name="com.practice.testcases.LeadsPageTest"/>
       <class name="com.practice.master.Master"/>
       <class name="com.practice.grid.ChromeGridTest"/> -->
     </classes>

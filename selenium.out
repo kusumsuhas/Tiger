@@ -1,3 +1,39 @@
-2018-10-04 15:37:15 INFO  Master:45 - Master Properties are configured:
-2018-10-04 15:37:15 INFO  Master:48 - Report is created
-2018-10-04 15:37:16 INFO  Master:63 - Method is createdtest
+2019-01-03 11:19:55 INFO  Master:47 - Master Properties are configured:
+2019-01-03 11:19:55 INFO  Master:50 - Report is created
+2019-01-03 11:19:55 INFO  LoginPageTest:22 - LoginPageTest BeforeSuite start executed::
+2019-01-03 11:19:55 INFO  Master:114 - Properties are Loaded
+2019-01-03 11:20:01 INFO  Master:65 - Method is createdLoginTest
+2019-01-03 11:20:10 INFO  LoginPageTest:30 - homePage is Loaded
+2019-01-03 11:20:11 INFO  Master:65 - Method is createdverifyHomePageTitle
+2019-01-03 11:20:11 INFO  LoginPageTest:36 - Title verified
+2019-01-03 11:20:11 INFO  Master:114 - Properties are Loaded
+2019-01-03 11:20:25 INFO  Master:65 - Method is createdverifyHomePageTitle
+2019-01-03 11:20:25 INFO  Master:52 - Homepage Title Verified..
+2019-01-03 11:20:29 INFO  Master:65 - Method is createdCalendarPageTest
+2019-01-03 11:20:32 INFO  Master:68 - Navigated to CalendarPage
+2019-01-03 11:20:32 INFO  Master:65 - Method is createdverifyCalendarPageTitle
+2019-01-03 11:20:32 INFO  Master:74 - Calendar Page title verified.
+2019-01-03 11:20:32 INFO  Master:65 - Method is createdorgPageTest
+2019-01-03 11:20:34 INFO  Master:80 - Organizations Page is loaded
+2019-01-03 11:20:34 INFO  Master:65 - Method is createdverifyOrgPageTitle
+2019-01-03 11:20:34 INFO  Master:86 - Organizations Page title verified.
+2019-01-03 11:20:34 INFO  Master:65 - Method is createdcontactsPageTest
+2019-01-03 11:20:36 INFO  Master:92 -  Contacts Page is loaded.
+2019-01-03 11:20:36 INFO  Master:65 - Method is createdverifyContactsPageTitle
+2019-01-03 11:20:36 INFO  Master:98 - Contacts Page title verified.
+2019-01-03 11:20:36 INFO  Master:65 - Method is createdopportunitiesPageTest
+2019-01-03 11:20:38 INFO  Master:104 - Opportunities page loaded
+2019-01-03 11:20:38 INFO  Master:65 - Method is createdverifyOppoPageTitle
+2019-01-03 11:20:38 INFO  Master:110 - Opportunities Page title verified
+2019-01-03 11:20:38 INFO  Master:65 - Method is createdproductsPageTest
+2019-01-03 11:20:40 INFO  Master:116 - Products Page is loaded
+2019-01-03 11:20:40 INFO  Master:65 - Method is createdverifyProductsPageTitle
+2019-01-03 11:20:40 INFO  Master:122 - Verified Products page title
+2019-01-03 11:20:40 INFO  Master:65 - Method is createddocumentsPageTest
+2019-01-03 11:20:42 INFO  Master:128 - Documents Page is loaded
+2019-01-03 11:20:42 INFO  Master:65 - Method is createdverifyDocumentsPagetitle
+2019-01-03 11:20:42 INFO  Master:134 - Documents Page title verified
+2019-01-03 11:20:42 INFO  Master:65 - Method is createddashboardPageTest
+2019-01-03 11:20:45 INFO  Master:140 - Dashboard Page is loaded
+2019-01-03 11:20:45 INFO  Master:65 - Method is createdverifyDashboardPageTitle
+2019-01-03 11:20:45 INFO  Master:146 - Dashboard Page title verified.

@@ -117,7 +117,6 @@ public class CalendarPage extends Master {
 		String[] words = mothYear.split(" ");
 
 		int yearDiff = Integer.parseInt(strYear) - Integer.parseInt(words[1]);
-
 		if (yearDiff > 0) {
 			for (int i = 1; i <= yearDiff; i++) {
 				eleYearnext.click();

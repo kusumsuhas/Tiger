@@ -3,41 +3,27 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.practice.testcases.HomePageTest">
-        <methods>
-          <include name="contactsPageTest"/>
-          <include name="verifyProductsPageTitle"/>
-          <include name="verifyOppoPageTitle"/>
-          <include name="verifyDocumentsPagetitle"/>
-          <include name="initExtent"/>
-          <include name="teardown"/>
-          <include name="opportunitiesPageTest"/>
-          <include name="CalendarPageTest"/>
-          <include name="getResult"/>
-          <include name="verifyDashboardPageTitle"/>
-          <include name="init"/>
-          <include name="verifyOrgPageTitle"/>
-          <include name="orgPageTest"/>
-          <include name="verifyCalendarPageTitle"/>
-          <include name="beforeSuite"/>
-          <include name="productsPageTest"/>
-          <include name="verifyHomePageTitle"/>
-          <include name="dashboardPageTest"/>
-          <include name="documentsPageTest"/>
-          <include name="verifyContactsPageTitle"/>
-        </methods>
-      </class> <!-- com.practice.testcases.HomePageTest -->
       <class name="com.practice.testcases.LoginPageTest">
         <methods>
           <include name="beforeSuite"/>
           <include name="initExtent"/>
           <include name="init"/>
-          <include name="LoginTest"/>
           <include name="teardown"/>
           <include name="verifyHomePageTitle"/>
           <include name="getResult"/>
         </methods>
       </class> <!-- com.practice.testcases.LoginPageTest -->
+      <class name="com.practice.testcases.HomePageTest">
+        <methods>
+          <include name="verifyCalendarPageTitle"/>
+          <include name="beforeSuite"/>
+          <include name="initExtent"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+          <include name="verifyDashboardPageTitle"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.practice.testcases.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

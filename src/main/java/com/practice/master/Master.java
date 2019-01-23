@@ -7,10 +7,12 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.testng.ITestResult;
@@ -89,11 +91,15 @@ public class Master {
 			System.setProperty("webdriver.chrome.driver", Constants.CHROMEDRIVERPATH);
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-infobars");
+			options.addArguments("--incognito");
 			driver = new ChromeDriver(options);
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", Constants.GECKODRIVERPATH);
 			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
 			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, Constants.FIREFOXLOGSPATH);
+
+			FirefoxProfile fireProfile = new FirefoxProfile();
+			fireProfile.setPreference("browser.private.browsing.autostart", true);
 			driver = new FirefoxDriver();
 		} else if (browser.equalsIgnoreCase("IE")) {
 			System.setProperty("webdriver.ie.driver", Constants.IEDRIVERPATH);

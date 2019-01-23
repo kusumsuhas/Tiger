@@ -1,21 +1,430 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="18" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24865" started-at="2018-09-28T06:06:10Z" finished-at="2018-09-28T06:06:35Z">
+  <suite name="Suite" duration-ms="50742" started-at="2019-01-03T05:49:55Z" finished-at="2019-01-03T05:50:46Z">
     <groups>
+      <group name="Sanity">
+        <method signature="HomePageTest.CalendarPageTest()[pri:1, instance:com.practice.testcases.HomePageTest@4de8b406]" name="CalendarPageTest" class="com.practice.testcases.HomePageTest"/>
+        <method signature="HomePageTest.contactsPageTest()[pri:5, instance:com.practice.testcases.HomePageTest@4de8b406]" name="contactsPageTest" class="com.practice.testcases.HomePageTest"/>
+        <method signature="HomePageTest.orgPageTest()[pri:3, instance:com.practice.testcases.HomePageTest@4de8b406]" name="orgPageTest" class="com.practice.testcases.HomePageTest"/>
+        <method signature="HomePageTest.verifyCalendarPageTitle()[pri:2, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyCalendarPageTitle" class="com.practice.testcases.HomePageTest"/>
+        <method signature="HomePageTest.verifyContactsPageTitle()[pri:6, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyContactsPageTitle" class="com.practice.testcases.HomePageTest"/>
+        <method signature="HomePageTest.verifyHomePageTitle()[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyHomePageTitle" class="com.practice.testcases.HomePageTest"/>
+        <method signature="HomePageTest.verifyOrgPageTitle()[pri:4, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyOrgPageTitle" class="com.practice.testcases.HomePageTest"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test name="Test" duration-ms="24865" started-at="2018-09-28T06:06:10Z" finished-at="2018-09-28T06:06:35Z">
-      <class name="com.practice.testcases.LoginPageTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="beforeSuite" is-config="true" duration-ms="284" started-at="2018-09-28T06:06:10Z" finished-at="2018-09-28T06:06:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="init" is-config="true" duration-ms="12977" started-at="2018-09-28T06:06:10Z" finished-at="2018-09-28T06:06:23Z">
+    <test name="Test" duration-ms="50742" started-at="2019-01-03T05:49:55Z" finished-at="2019-01-03T05:50:46Z">
+      <class name="com.practice.testcases.HomePageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="init" is-config="true" duration-ms="13692" started-at="2019-01-03T05:50:11Z" finished-at="2019-01-03T05:50:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="initExtent" is-config="true" duration-ms="6" started-at="2018-09-28T06:06:23Z" finished-at="2018-09-28T06:06:23Z">
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:25Z" finished-at="2019-01-03T05:50:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.verifyHomePageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyHomePageTitle" duration-ms="4010" started-at="2019-01-03T05:50:25Z" finished-at="2019-01-03T05:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="105" started-at="2019-01-03T05:50:29Z" finished-at="2019-01-03T05:50:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=HomePageTest.verifyHomePageTitle()[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:29Z" finished-at="2019-01-03T05:50:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.CalendarPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="CalendarPageTest()[pri:1, instance:com.practice.testcases.HomePageTest@4de8b406]" name="CalendarPageTest" duration-ms="2369" started-at="2019-01-03T05:50:29Z" finished-at="2019-01-03T05:50:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalendarPageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="77" started-at="2019-01-03T05:50:32Z" finished-at="2019-01-03T05:50:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CalendarPageTest status=SUCCESS method=HomePageTest.CalendarPageTest()[pri:1, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="2" started-at="2019-01-03T05:50:32Z" finished-at="2019-01-03T05:50:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.verifyCalendarPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="verifyCalendarPageTitle()[pri:2, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyCalendarPageTitle" duration-ms="9" started-at="2019-01-03T05:50:32Z" finished-at="2019-01-03T05:50:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCalendarPageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="57" started-at="2019-01-03T05:50:32Z" finished-at="2019-01-03T05:50:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCalendarPageTitle status=SUCCESS method=HomePageTest.verifyCalendarPageTitle()[pri:2, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="5" started-at="2019-01-03T05:50:32Z" finished-at="2019-01-03T05:50:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.orgPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="orgPageTest()[pri:3, instance:com.practice.testcases.HomePageTest@4de8b406]" name="orgPageTest" duration-ms="2114" started-at="2019-01-03T05:50:32Z" finished-at="2019-01-03T05:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgPageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="84" started-at="2019-01-03T05:50:34Z" finished-at="2019-01-03T05:50:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orgPageTest status=SUCCESS method=HomePageTest.orgPageTest()[pri:3, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:34Z" finished-at="2019-01-03T05:50:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.verifyOrgPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="verifyOrgPageTitle()[pri:4, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyOrgPageTitle" duration-ms="13" started-at="2019-01-03T05:50:34Z" finished-at="2019-01-03T05:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrgPageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="62" started-at="2019-01-03T05:50:34Z" finished-at="2019-01-03T05:50:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrgPageTitle status=SUCCESS method=HomePageTest.verifyOrgPageTitle()[pri:4, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:34Z" finished-at="2019-01-03T05:50:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.contactsPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="contactsPageTest()[pri:5, instance:com.practice.testcases.HomePageTest@4de8b406]" name="contactsPageTest" duration-ms="1843" started-at="2019-01-03T05:50:34Z" finished-at="2019-01-03T05:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsPageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="66" started-at="2019-01-03T05:50:36Z" finished-at="2019-01-03T05:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactsPageTest status=SUCCESS method=HomePageTest.contactsPageTest()[pri:5, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:36Z" finished-at="2019-01-03T05:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.verifyContactsPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="verifyContactsPageTitle()[pri:6, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyContactsPageTitle" duration-ms="8" started-at="2019-01-03T05:50:36Z" finished-at="2019-01-03T05:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="44" started-at="2019-01-03T05:50:36Z" finished-at="2019-01-03T05:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactsPageTitle status=SUCCESS method=HomePageTest.verifyContactsPageTitle()[pri:6, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:36Z" finished-at="2019-01-03T05:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.opportunitiesPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="opportunitiesPageTest()[pri:7, instance:com.practice.testcases.HomePageTest@4de8b406]" name="opportunitiesPageTest" duration-ms="1696" started-at="2019-01-03T05:50:36Z" finished-at="2019-01-03T05:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunitiesPageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="69" started-at="2019-01-03T05:50:38Z" finished-at="2019-01-03T05:50:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=opportunitiesPageTest status=SUCCESS method=HomePageTest.opportunitiesPageTest()[pri:7, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:38Z" finished-at="2019-01-03T05:50:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.verifyOppoPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="verifyOppoPageTitle()[pri:8, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyOppoPageTitle" duration-ms="9" started-at="2019-01-03T05:50:38Z" finished-at="2019-01-03T05:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOppoPageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="56" started-at="2019-01-03T05:50:38Z" finished-at="2019-01-03T05:50:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOppoPageTitle status=SUCCESS method=HomePageTest.verifyOppoPageTitle()[pri:8, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:38Z" finished-at="2019-01-03T05:50:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.productsPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="productsPageTest()[pri:9, instance:com.practice.testcases.HomePageTest@4de8b406]" name="productsPageTest" duration-ms="1743" started-at="2019-01-03T05:50:38Z" finished-at="2019-01-03T05:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsPageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="73" started-at="2019-01-03T05:50:40Z" finished-at="2019-01-03T05:50:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productsPageTest status=SUCCESS method=HomePageTest.productsPageTest()[pri:9, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:40Z" finished-at="2019-01-03T05:50:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.verifyProductsPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="verifyProductsPageTitle()[pri:10, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyProductsPageTitle" duration-ms="18" started-at="2019-01-03T05:50:40Z" finished-at="2019-01-03T05:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsPageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="256" started-at="2019-01-03T05:50:40Z" finished-at="2019-01-03T05:50:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductsPageTitle status=SUCCESS method=HomePageTest.verifyProductsPageTitle()[pri:10, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:40Z" finished-at="2019-01-03T05:50:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.documentsPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="documentsPageTest()[pri:11, instance:com.practice.testcases.HomePageTest@4de8b406]" name="documentsPageTest" duration-ms="1638" started-at="2019-01-03T05:50:40Z" finished-at="2019-01-03T05:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documentsPageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="59" started-at="2019-01-03T05:50:42Z" finished-at="2019-01-03T05:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=documentsPageTest status=SUCCESS method=HomePageTest.documentsPageTest()[pri:11, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:42Z" finished-at="2019-01-03T05:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.verifyDocumentsPagetitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="verifyDocumentsPagetitle()[pri:12, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyDocumentsPagetitle" duration-ms="19" started-at="2019-01-03T05:50:42Z" finished-at="2019-01-03T05:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDocumentsPagetitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="66" started-at="2019-01-03T05:50:42Z" finished-at="2019-01-03T05:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDocumentsPagetitle status=SUCCESS method=HomePageTest.verifyDocumentsPagetitle()[pri:12, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="3" started-at="2019-01-03T05:50:42Z" finished-at="2019-01-03T05:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.dashboardPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="dashboardPageTest()[pri:13, instance:com.practice.testcases.HomePageTest@4de8b406]" name="dashboardPageTest" duration-ms="2957" started-at="2019-01-03T05:50:42Z" finished-at="2019-01-03T05:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardPageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="66" started-at="2019-01-03T05:50:45Z" finished-at="2019-01-03T05:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dashboardPageTest status=SUCCESS method=HomePageTest.dashboardPageTest()[pri:13, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="initExtent" is-config="true" duration-ms="1" started-at="2019-01-03T05:50:45Z" finished-at="2019-01-03T05:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.testcases.HomePageTest.verifyDashboardPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method status="PASS" signature="verifyDashboardPageTitle()[pri:14, instance:com.practice.testcases.HomePageTest@4de8b406]" name="verifyDashboardPageTitle" duration-ms="7" started-at="2019-01-03T05:50:45Z" finished-at="2019-01-03T05:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="getResult" is-config="true" duration-ms="71" started-at="2019-01-03T05:50:45Z" finished-at="2019-01-03T05:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDashboardPageTitle status=SUCCESS method=HomePageTest.verifyDashboardPageTitle()[pri:14, instance:com.practice.testcases.HomePageTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.testcases.HomePageTest@4de8b406]" name="teardown" is-config="true" duration-ms="811" started-at="2019-01-03T05:50:45Z" finished-at="2019-01-03T05:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.practice.testcases.HomePageTest -->
+      <class name="com.practice.testcases.LoginPageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.practice.testcases.LoginPageTest@6a2bcfcb]" name="beforeSuite" is-config="true" duration-ms="341" started-at="2019-01-03T05:49:55Z" finished-at="2019-01-03T05:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.practice.testcases.LoginPageTest@6a2bcfcb]" name="init" is-config="true" duration-ms="6128" started-at="2019-01-03T05:49:55Z" finished-at="2019-01-03T05:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.LoginPageTest@6a2bcfcb]" name="initExtent" is-config="true" duration-ms="6" started-at="2019-01-03T05:50:01Z" finished-at="2019-01-03T05:50:01Z">
           <params>
             <param index="0">
               <value>
@@ -26,22 +435,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initExtent -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="LoginTest" duration-ms="8683" started-at="2018-09-28T06:06:23Z" finished-at="2018-09-28T06:06:32Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.practice.testcases.LoginPageTest@6a2bcfcb]" name="LoginTest" duration-ms="8704" started-at="2019-01-03T05:50:01Z" finished-at="2019-01-03T05:50:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="getResult" is-config="true" duration-ms="571" started-at="2018-09-28T06:06:32Z" finished-at="2018-09-28T06:06:32Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.LoginPageTest@6a2bcfcb]" name="getResult" is-config="true" duration-ms="853" started-at="2019-01-03T05:50:10Z" finished-at="2019-01-03T05:50:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginPageTest.LoginTest()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1] output={null}]]]>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginPageTest.LoginTest()[pri:0, instance:com.practice.testcases.LoginPageTest@6a2bcfcb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="initExtent" is-config="true" duration-ms="3" started-at="2018-09-28T06:06:32Z" finished-at="2018-09-28T06:06:32Z">
+        <test-method status="PASS" signature="initExtent(java.lang.reflect.Method)[pri:0, instance:com.practice.testcases.LoginPageTest@6a2bcfcb]" name="initExtent" is-config="true" duration-ms="2" started-at="2019-01-03T05:50:11Z" finished-at="2019-01-03T05:50:11Z">
           <params>
             <param index="0">
               <value>
@@ -52,22 +461,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initExtent -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="verifyHomePageTitle" duration-ms="12" started-at="2018-09-28T06:06:32Z" finished-at="2018-09-28T06:06:32Z">
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.practice.testcases.LoginPageTest@6a2bcfcb]" name="verifyHomePageTitle" duration-ms="16" started-at="2019-01-03T05:50:11Z" finished-at="2019-01-03T05:50:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="getResult" is-config="true" duration-ms="116" started-at="2018-09-28T06:06:32Z" finished-at="2018-09-28T06:06:32Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.LoginPageTest@6a2bcfcb]" name="getResult" is-config="true" duration-ms="96" started-at="2019-01-03T05:50:11Z" finished-at="2019-01-03T05:50:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=LoginPageTest.verifyHomePageTitle()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=LoginPageTest.verifyHomePageTitle()[pri:0, instance:com.practice.testcases.LoginPageTest@6a2bcfcb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.testcases.LoginPageTest@573f2bb1]" name="teardown" is-config="true" duration-ms="2477" started-at="2018-09-28T06:06:32Z" finished-at="2018-09-28T06:06:35Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.testcases.LoginPageTest@6a2bcfcb]" name="teardown" is-config="true" duration-ms="691" started-at="2019-01-03T05:50:11Z" finished-at="2019-01-03T05:50:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
